@@ -1015,7 +1015,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: black;
+  background: #fff;
   border: 1px solid #e5c063;
   color: #e5c063;
 }
@@ -1112,7 +1112,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: linear-gradient(90deg, rgba(122,122,122,1) 0%, rgba(171,179,185,1) 35%, rgba(255,255,255,1) 100%);;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1138,7 +1138,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #3c3c3c;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1150,8 +1150,8 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #fff;
+  color: #e5c063;
   text-decoration: none;
 }
 #footer .copyright {
